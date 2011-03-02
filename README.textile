@@ -1,0 +1,18 @@
+h1. How to install
+
+# Clone this repo using git
+  	<pre>git clone git://github.com/tonic20/irbrc.git</pre>
+# Symlink the file to ~/.irbrc
+  	<pre>ln -s ~/irbrc/irbrc ~/.irbrc</pre>
+# Run 'irb' and enjoy!
+
+These settings will also affect your script/console sessions in Rails
+
+h2. What it does
+* Sets a shorter prompt (">>")
+* Saves your command history between irb sessions
+* Type "clear" to clear the screen (or just "c")
+* Enables automatic indentation
+* Loads Rubygems for you
+* Show ActiveRecord messages
+
